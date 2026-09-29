@@ -184,7 +184,7 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @misc{securegatmsa,
-  title  = {SecureGAT-MSA: Multi-Head Structural Attention Graph Learning for Smart Contract Vulnerability Detection},
+  title  = {SecureGAT-MSA: Multi Structural Attention Graph Learning for Node-Level Smart-Contract Vulnerability Detection},
   author = {Bole Wilfried Tienin},
   year   = {2026},
   url    = {https://github.com/willie-willie/SecureGAT-MSA}
