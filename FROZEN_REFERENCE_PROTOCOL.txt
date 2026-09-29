@@ -1,0 +1,32 @@
+SecureGAT-MSA frozen reference protocol
+
+Split: 245 train / 49 validation / 56 test
+Total: 350 graphs, 480630 nodes, 480280 edges
+
+Model:
+41 node types
+32-D node embedding
+64-D GAT hidden
+4 GAT heads
+GAT dropout 0.20
+classifier dropout 0.20
+32-D structural attention hidden
+4 structural attention heads
+
+Training:
+Adam
+LR=0.003
+weight_decay=1e-6
+max_epochs=2000
+early_stopping_patience=300
+checkpoint=validation_accuracy
+threshold=0.50
+target=injection_label
+
+Reference:
+Accuracy=0.8817
+Precision=0.6850
+Recall=0.7252
+F1=0.7045
+ROC-AUC=0.9384
+PR=0.7511
